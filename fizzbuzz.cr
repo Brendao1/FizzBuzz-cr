@@ -2,6 +2,11 @@ class FizzBuzz
 
 puts "hello world"
 
+i = 0
+while i < 101
+play(i)
+i++
+
 def self.play(num)
   if (num % 3 == 0) && (num % 5 ==0)
     puts "FizzBuzz"
